@@ -1,0 +1,25 @@
+button {
+  padding: 1rem;
+  font-size: 18px;
+  width: 100%;
+  // width: auto;
+  white-space: nowrap;
+  background-color: #4866e1;
+  border-radius: 5px;
+  font-size: 17.6603px;
+  line-height: 25px;
+  color: #ffffff;
+  border: none;
+
+  // &:disabled {
+  //   background-color: rgb(122, 30, 30);
+  //   transition: none !important;
+  //   transform: none !important;
+  //   box-shadow: none !important;
+  //   cursor: not-allowed;
+  // }
+}
+.primary {
+  height: 100%;
+  margin-top: 20px;
+}
