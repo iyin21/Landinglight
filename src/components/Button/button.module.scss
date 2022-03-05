@@ -10,6 +10,10 @@ button {
   line-height: 25px;
   color: #ffffff;
   border: none;
+  @media screen and (max-width: 720px) {
+    font-size: 14px;
+    padding: 0.5rem;
+  }
 
   // &:disabled {
   //   background-color: rgb(122, 30, 30);
@@ -22,4 +26,8 @@ button {
 .primary {
   height: 100%;
   margin-top: 20px;
+  width: 20%;
+  @media screen and (max-width: 900px) {
+    width: 50%;
+  }
 }

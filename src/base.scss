@@ -5,8 +5,8 @@
 }
 h3 {
   font-weight: 500;
-  font-size: 28px;
-  line-height: 32px;
+  font-size: 27px;
+  line-height: 31px;
 }
 h4 {
   //font-weight: 600;
@@ -20,6 +20,26 @@ h5 {
   color: #000000;
   font-style: normal;
   font-weight: 500;
+}
+@media screen and (max-width: 720px) {
+  h3 {
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 27px;
+  }
+  h4 {
+    //font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    font-style: bold;
+  }
+  h5 {
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+    font-style: normal;
+    font-weight: 500;
+  }
 }
 // body {
 //   font-family: "Poppins";

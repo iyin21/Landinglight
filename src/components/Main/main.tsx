@@ -72,7 +72,7 @@ const Main = () => {
       </div>
       <hr />
       <div className={styles.footer}>
-        <Button style={{ width: "20%" }} variant="primary">
+        <Button  variant="primary">
           Complete payment
         </Button>
         <h4>TOTAL: &#8358;2556.64</h4>
